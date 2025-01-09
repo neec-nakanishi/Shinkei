@@ -13,7 +13,7 @@ class Shinkei extends Game {
         Player p = new Player(this, "プレーヤー1");               // プレーヤーを作成
         addPlayer(p);        
 		// 表示
-		//setVisible(true);
+		setVisible(true);
 		// ゲームをスタート
 		gameStart();
     }

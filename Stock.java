@@ -18,7 +18,7 @@ class Stock extends CardHolder {
             for (int y=0 ; y<4 ; y++) {
                 for (int x=0 ; x<13 ; x++) {
                     Card c = get(0);
-                    c.setFace(true);
+                    c.setFace(false);
                     remove(c);
                     game.getPlace().add(c);
                     game.getContentPane().setComponentZOrder(c, game.getComponentCount()-1);
